@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@xcycle-tools/components": ["components/src/index.ts"],
+      "@xcycle-tools/config": ["config/src/index.ts"],
+      "@xcycle-tools/financial-statement": ["financial-statement/src/index.ts"],
+      "@xcycle-tools/types": ["types/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

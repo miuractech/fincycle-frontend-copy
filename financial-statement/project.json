@@ -1,0 +1,9 @@
+{
+  "name": "financial-statement",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "financial-statement/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project financial-statement --web",
+  "targets": {}
+}

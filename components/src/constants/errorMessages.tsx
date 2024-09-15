@@ -1,0 +1,1 @@
+export const defaultErrorMessage = "Unknown error! try again or check internet connection!"
